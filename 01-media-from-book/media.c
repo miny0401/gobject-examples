@@ -224,7 +224,8 @@ int main () {
     gboolean is_unpacked;
     gulong handler_id;
 
-    g_type_init();
+    // deprecated
+    //g_type_init();
     g_print("Hello World!\n");
     media = g_object_new(TYPE_MEDIA,
                          "inventory-id", 42,

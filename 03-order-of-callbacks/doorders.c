@@ -9,7 +9,8 @@ unreferenced.  */
 #include "order2.h"
 
 int main () {
-    g_type_init();
+    // deprecated
+    //g_type_init();
     
     g_print("\npoint 1\n=======\n");
     Point *o = g_object_new(TYPE_POINT, "x", 302, "y", 20, NULL);

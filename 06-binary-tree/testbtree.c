@@ -15,7 +15,8 @@ so I used both.
 #include "binarytree.h"
 
 int main () {
-    g_type_init();
+    // deprecated
+    //g_type_init();
 
     plan(34);
 

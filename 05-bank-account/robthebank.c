@@ -13,7 +13,8 @@ account and has a member variable of the bankaccount type.
 #include "checkingaccount.h"
 
 int main () {
-    g_type_init();
+    // deprecated
+    //g_type_init();
 
     plan(21);
 

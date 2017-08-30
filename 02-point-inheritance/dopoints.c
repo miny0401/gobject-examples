@@ -14,7 +14,8 @@ static void psp (Point *p) {
 }
 
 int main () {
-    g_type_init();
+    // deprecated
+    //g_type_init();
     
     void *points[] = {
         g_object_new(TYPE_POINT,   "x",  5, "y", 10, NULL),

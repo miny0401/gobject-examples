@@ -18,7 +18,8 @@ to implement other functions, e.g. print().
 #include "eq.h"
 
 int main () {
-    g_type_init();
+    // deprecated
+    //g_type_init();
 
     plan(21);
 

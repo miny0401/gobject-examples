@@ -51,7 +51,8 @@ static void dot3d_init       (Dot3D *self)            {}
 int main () {
     Dot *d;
 
-    g_type_init();
+    // deprecated
+    //g_type_init();
     foreach (d,
              dot_new(1, 1),
              dot_new(2, 3),
